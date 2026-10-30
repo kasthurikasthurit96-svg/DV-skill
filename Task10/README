@@ -1,0 +1,119 @@
+# House Price Visualization, Geographic Clustering & Real-Estate Investment Insights
+
+## Project Overview
+
+This project focuses on analyzing house prices in King County using Python and data visualization techniques.
+
+It explores how different property features such as living area, property grade, condition, waterfront status, renovation status, property age, and geographic location are related to house prices.
+
+The project also uses Linear Regression and K-Means Clustering to understand property price patterns and identify geographic groups.
+
+## Objectives
+
+- Analyze the relationship between living area and house prices.
+- Compare house prices based on property grade and condition.
+- Study waterfront and non-waterfront property prices.
+- Identify the top 10 ZIP codes based on median house prices.
+- Analyze property age and renovation status.
+- Compare house prices based on bedrooms and bathrooms.
+- Perform correlation analysis.
+- Apply K-Means clustering to geographic locations.
+- Generate real-estate investment insights.
+
+## Technologies Used
+
+- Python
+- Google Colab
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Linear Regression
+- K-Means Clustering
+- StandardScaler
+
+## Dataset
+
+**Dataset Name:** `kc_house_performance.csv`
+
+The dataset contains house sales information, including:
+
+- Price
+- Bedrooms and Bathrooms
+- Living Area and Lot Area
+- Property Grade and Condition
+- Year Built and Year Renovated
+- Waterfront Status
+- Latitude and Longitude
+- ZIP Code
+- Property Age
+- Renovation Status
+- Price per Square Foot
+
+## Project Workflow
+
+1. Imported the required Python libraries.
+2. Loaded and prepared the King County house sales dataset.
+3. Analyzed living area and house price using regression plots.
+4. Compared house prices by property grade and condition.
+5. Analyzed waterfront and non-waterfront properties.
+6. Visualized geographic house price distributions.
+7. Performed multivariable property valuation analysis.
+8. Applied K-Means clustering to geographic coordinates.
+9. Compared expensive and less expensive ZIP codes.
+10. Generated investment insights and saved the final dataset.
+
+## Data Visualizations
+
+The project includes 20 visualizations:
+
+1. Living Area vs House Price
+2. Nonlinear Relationship Between Living Area and House Price
+3. House Price Distribution by Property Grade
+4. House Price Distribution by Property Condition
+5. Median House Price by Property Grade
+6. Median House Price by Property Condition
+7. Waterfront vs Non-Waterfront House Prices
+8. Geographical Distribution of House Prices
+9. Top 10 ZIP Codes by Median House Price
+10. Property Age vs House Price
+11. Average House Price by Renovation Status
+12. Average Price per Square Foot by Property Grade
+13. Living Area vs Price per Square Foot
+14. Average Price per Square Foot by Property Condition
+15. Average House Price by Number of Bedrooms
+16. Average House Price by Number of Bathrooms
+17. Correlation Heatmap of Property Characteristics
+18. Geographic Clusters of King County Properties
+19. Median House Price by Geographic Cluster
+20. Comparison of Expensive and Less Expensive ZIP Codes
+
+## Key Insights
+
+- House prices vary across different living areas and property characteristics.
+- Property grade and condition help explain differences in property valuation.
+- Waterfront and non-waterfront properties show different price distributions.
+- ZIP code analysis identifies locations with different median house prices.
+- Renovation status and property age provide additional information for property comparisons.
+- Geographic clustering groups properties based on their locations.
+- Price per square foot helps compare property values.
+
+## Key Outcomes
+
+- Completed data cleaning and preparation.
+- Performed regression and correlation analysis.
+- Created 20 data visualizations.
+- Identified the top 10 ZIP codes by median house price.
+- Applied K-Means clustering and identified five geographic clusters.
+- Compared property prices across geographic clusters.
+- Generated a real-estate investment summary.
+- Saved the final analysis dataset as `Final Week-10.CSV`.
+
+## Conclusion
+
+This project demonstrates how Python, data visualization, regression analysis, and clustering techniques can be used to analyze house price variations.
+
+The analysis provides useful insights into property characteristics and geographic price patterns. These findings can support further real-estate research and property comparisons.
+
+However, the results show relationships in the available dataset and do not prove cause and effect or guarantee future investment returns.
